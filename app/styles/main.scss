@@ -1,0 +1,19 @@
+// bower:scss
+// endbower
+
+@import "colours";
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.box {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}

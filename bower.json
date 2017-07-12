@@ -1,0 +1,12 @@
+{
+  "name": "digitalcamo",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}

@@ -1,0 +1,61 @@
+$colors: (
+  'red': #ea071d,
+);
+
+@function get-color($key: 'red') {
+  @return map-get($colors, $key);
+}
+
+$red: get-color('red');
+
+$red-10: mix(white, $red, 10%);
+$red-20: mix(white, $red, 20%);
+$red-30: mix(white, $red, 30%);
+$red-40: mix(white, $red, 40%);
+$red-50: mix(white, $red, 50%);
+$red-60: mix(white, $red, 60%);
+$red-70: mix(white, $red, 70%);
+$red-80: mix(white, $red, 80%);
+$red-90: mix(white, $red, 90%);
+$red-100: mix(white, $red, 100%);
+
+
+.red-10 {
+  background: $red-10;
+}
+
+.red-20 {
+  background: $red-20;
+}
+
+.red-30 {
+  background: $red-30;
+}
+
+.red-40 {
+  background: $red-40;
+}
+
+.red-50 {
+  background: $red-50;
+}
+
+.red-60 {
+  background: $red-60;
+}
+
+.red-70 {
+  background: $red-70;
+}
+
+.red-80 {
+  background: $red-80;
+}
+
+.red-90 {
+  background: $red-90;
+}
+
+.red-100 {
+  background: $red;
+}
